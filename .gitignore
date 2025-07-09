@@ -1,0 +1,72 @@
+# Build directories
+build/
+[Bb]uild*/
+[Oo]ut/
+[Xx]64/
+[Xx]86/
+[Rr]elease/
+[Dd]ebug/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE files (VS Code, CLion, etc.)
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.vcxproj*
+*.filters
+*.opensdf
+*.sdf
+
+# Dependency directories
+deps/
+third_party/
+
+# Local development files
+*.local
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and diagnostics
+*.log
+*.tlog
+*.ilk
+*.pdb
+*.ipch
+*.obj
+
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Backup files
+*.bak
+*.backup
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
