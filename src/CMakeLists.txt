@@ -4,11 +4,11 @@ project(SnakeGame)
 # Set source files with full paths
 set(SOURCE_DIR "${CMAKE_SOURCE_DIR}/src")
 set(SOURCES 
-    "./main.cpp"
-    "./Game.cpp"
+    "${CMAKE_SOURCE_DIR}/main.cpp"
+    "${CMAKE_SOURCE_DIR}/Game.cpp"
 )
 set(HEADERS 
-    "${SOURCE_DIR}/Game.h"
+    "${CMAKE_SOURCE_DIR}/Game.h"
 )
 
 # Verify source files exist
@@ -94,7 +94,7 @@ endif()
 file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/sfx)
 add_custom_command(TARGET SnakeGame POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy
-        ${CMAKE_SOURCE_DIR}/sfx/chomp.wav
+        ${CMAKE_SOURCE_DIR}/../sfx/chomp.wav
         ${CMAKE_BINARY_DIR}/sfx/
     COMMENT "Copying sound files..."
 )
