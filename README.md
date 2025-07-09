@@ -2,9 +2,9 @@
 
 A small experiment in creating and building a C++ application using MSYS2 and Void Agent/DeepSeek.
 
-What did I learn? Not only is it possible, but once the dev environment is in order, iterating is fairly smooth.
+What did I learn? Not only is "vibe compiling" possible, but once the dev environment is in order, iterating is fairly smooth.
 The biggest gripe I have with C++, or at least the setup I'm using, is that small feature additions result in a lot of
-back-and-forth with Void Agent/DeepSeek to resolve minor dependancy discrepencies. You will have the best experience if
+back-and-forth with Void Agent/DeepSeek to resolve minor dependency discrepancies. You will have the best experience if
 you prototype a version of each feature you want (GUI/Sound/etc.) at first and get that working before expanding out the
 program's internal functionality. This is basically the same version of snake you can get working in 10 minutes with
 any other language; it's the annoying build process that slows down "vibe coding" with C++.
@@ -68,7 +68,7 @@ The executable will be created in the `build/Release/` directory.
 
 Since this is a static build, the executable should run standalone without requiring additional DLLs.
 Even so, I've had issues getting Void Agent/DeepSeek to properly integrate SFX into the binary, so the
-copied SFX folder is mandatory for working sound effects.
+copied SFX folder is mandatory for the program to work.
 
 ## Troubleshooting
 
