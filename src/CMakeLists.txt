@@ -4,8 +4,8 @@ project(SnakeGame)
 # Set source files with full paths
 set(SOURCE_DIR "${CMAKE_SOURCE_DIR}/src")
 set(SOURCES 
-    "${SOURCE_DIR}/main.cpp"
-    "${SOURCE_DIR}/Game.cpp"
+    "main.cpp"
+    "Game.cpp"
 )
 set(HEADERS 
     "${SOURCE_DIR}/Game.h"
