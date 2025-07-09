@@ -6,8 +6,8 @@ What did I learn? Not only is "vibe compiling" possible, but once the dev enviro
 The biggest gripe I have with C++, or at least the setup I'm using, is that small feature additions result in a lot of
 back-and-forth with Void Agent/DeepSeek to resolve minor dependency discrepancies. You will have the best experience if
 you prototype a version of each feature you want (GUI/Sound/etc.) at first and get that working before expanding out the
-program's internal functionality. This is basically the same version of snake you can get working in 10 minutes with
-any other language; it's the annoying build process that slows down "vibe coding" with C++.
+program's internal functionality. This is basically the same version of Snake you can get working in 10 minutes with
+any other language; it's the annoying build process that slows down development with C++.
 
 ## Prerequisites
 
